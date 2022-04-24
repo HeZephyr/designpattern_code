@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config>
+    <className>adapter_pattern.object_adapter.PoliceCarAdapter</className>
+</config>
