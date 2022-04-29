@@ -11,13 +11,10 @@ public class CipherMachine {
      * @return 加密后的字符串
      */
     public String encrypt(String plainText) {
-        System.out.print("数据加密，将明文转为密文：");
-        StringBuffer stringBuffer = new StringBuffer();
-        for (int i = 0; i < plainText.length(); ++ i ) {
-            // 加密规则为将ASCII码值减5减i，那么恢复就是+5+i
-            stringBuffer.append(plainText.charAt(i) - 5 - i);
-        }
-        System.out.println(stringBuffer);
-        return stringBuffer.toString();
+        StringBuffer stringBuffer = new StringBuffer(plainText);
+        System.out.print("数据加密，将明文转换为密文：");
+        String result = stringBuffer.reverse().toString();
+        System.out.println(result);
+        return result;
     }
 }
