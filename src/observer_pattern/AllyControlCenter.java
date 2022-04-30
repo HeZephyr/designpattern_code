@@ -30,6 +30,7 @@ public abstract class AllyControlCenter {
      * @param obs
      */
     public void join(Observer obs) {
+        System.out.println(obs.getName() + "加入" + allyName + "战队！");
         players.add(obs);
     }
 
@@ -38,6 +39,7 @@ public abstract class AllyControlCenter {
      * @param obs
      */
     public void quit(Observer obs) {
+        System.out.println(obs.getName() + "退出" + allyName + "战队！");
         players.remove(obs);
     }
 

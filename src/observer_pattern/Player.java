@@ -2,6 +2,8 @@ package observer_pattern;
 
 /**
  * 战队成员类，充当具体观察者
+ * @author Cnc_hzf
+ * @date 2022/4/30 17:08
  */
 public class Player implements Observer {
     private String name;
