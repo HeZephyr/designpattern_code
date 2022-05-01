@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <className1>bridge_pattern.PDFConvertor</className1>
-    <className2>bridge_pattern.SQLServerHandle</className2>
-</config>
